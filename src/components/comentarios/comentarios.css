@@ -1,0 +1,84 @@
+.container_comentarios{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.container_comentarios, .container__resposta{
+  padding: 1rem 1rem;
+  width: 890px;
+}
+
+.imagem--perfis{
+  width: 40px;
+  height: 40px;
+}
+
+.comentarios__infos{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+  justify-content: space-between;
+}
+
+.container--score{
+  background-color: #eaecf1;
+  width: 20px;
+  padding: 0 1.24rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 1rem;
+  border-radius: 8px;
+}
+
+.delete__edit-container{
+  cursor: pointer;
+}
+
+.comentario__score{
+  color: #5457b6;
+  font-weight: 500;
+}
+
+.container--score p{
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.container{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.container__resposta{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  height: 150px;
+  background-color: #fff;
+}
+
+.container__comentario-texto{
+  margin-left: 4rem;
+}
+
+.delete__edit-container{
+  display: flex;
+  margin-right: 1rem;
+}
+
+.delete__edit-container p{
+  margin-right: 1rem;
+}
